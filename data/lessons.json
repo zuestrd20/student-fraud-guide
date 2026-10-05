@@ -1,0 +1,931 @@
+{
+  "version": "1.0",
+  "checkedAt": "2026-10-05",
+  "locale": "zh-TW",
+  "title": "學生防詐練習室",
+  "description": "先停一下，換個管道查證，再決定。",
+  "categories": [
+    {
+      "id": "shopping",
+      "label": "購物交易"
+    },
+    {
+      "id": "gaming",
+      "label": "遊戲與帳號"
+    },
+    {
+      "id": "money",
+      "label": "投資與交友"
+    },
+    {
+      "id": "work",
+      "label": "打工與帳戶"
+    },
+    {
+      "id": "impersonation",
+      "label": "冒名與釣魚"
+    }
+  ],
+  "methods": [
+    {
+      "id": "shopping",
+      "title": "低價網購與演唱會門票",
+      "category": "shopping",
+      "hook": "小晴在社群看到便宜球鞋與讓票貼文，賣家催她離開平台，先匯訂金才留貨。",
+      "fictional": true,
+      "redFlags": [
+        "價格與交易條件不合理，反覆催付款",
+        "要求站外匯款；截圖、好評或身分證照片無法單獨證明可信"
+      ],
+      "safeSteps": [
+        "從官方售票、品牌或交易平台自行進入",
+        "查退換貨、付款保障及賣家紀錄；不因倒數而省略查證"
+      ],
+      "afterSteps": [
+        "保存商品頁、對話和付款紀錄",
+        "已付款又失聯時聯絡平台、銀行及警方"
+      ],
+      "seekHelpWhen": "準備站外付款、被催款或交易疑似有問題時，即可問可信任大人與165。",
+      "sourceIds": [
+        "L01",
+        "L11",
+        "L21"
+      ]
+    },
+    {
+      "id": "fake-buyer",
+      "title": "賣東西也會遇到假買家",
+      "category": "shopping",
+      "hook": "阿禾轉賣課本，買家說無法下單，丟來客服連結，要求先完成金流驗證。",
+      "fictional": true,
+      "redFlags": [
+        "買家帶你到另一個客服頁面",
+        "收款卻要求轉帳、交卡號或付款驗證碼"
+      ],
+      "safeSteps": [
+        "停止使用對方給的連結或QR Code",
+        "自行開啟原平台，在站內查看訂單並詢問官方客服"
+      ],
+      "afterSteps": [
+        "保留訊息、網址與交易通知",
+        "若已交金融資料，立即聯絡銀行並報案"
+      ],
+      "seekHelpWhen": "任何要求你為了收款先付錢、交OTP或交提款卡的情況，先停下並求助。",
+      "sourceIds": [
+        "L02",
+        "L11",
+        "L23"
+      ]
+    },
+    {
+      "id": "installment",
+      "title": "假客服解除分期／會員扣款",
+      "category": "shopping",
+      "hook": "剛買完耳機，客服來電說訂單被改成付費會員，還說得出商品名稱，要小恩照做取消。",
+      "fictional": true,
+      "redFlags": [
+        "知道真實訂單細節不等於真客服",
+        "要求操作ATM、網銀、買點數或轉帳來解除扣款"
+      ],
+      "safeSteps": [
+        "掛斷電話，從原購物App或卡片背面查客服電話，自行撥打",
+        "ATM不能解除分期設定；不要按來電者指令移轉金錢"
+      ],
+      "afterSteps": [
+        "已匯款立刻聯絡銀行與警方",
+        "保存來電時間、對話與交易紀錄"
+      ],
+      "seekHelpWhen": "被催著立即操作金融帳戶時，請旁人陪同並撥165查證。",
+      "sourceIds": [
+        "L03",
+        "L21"
+      ]
+    },
+    {
+      "id": "virtual-goods",
+      "title": "虛寶、遊戲幣與代儲交易",
+      "category": "gaming",
+      "hook": "小宇想買便宜造型，網友要求改到陌生交易網站，接著說帳號凍結，要再繳保證金。",
+      "fictional": true,
+      "redFlags": [
+        "低價引導站外交易",
+        "交易後接連要求保證金、解凍費或帳密"
+      ],
+      "safeSteps": [
+        "優先使用遊戲官方允許的購買或儲值管道",
+        "查遊戲交易規則與平台真實入口，不交帳密或驗證碼"
+      ],
+      "afterSteps": [
+        "保存交易、點數購買與對話紀錄",
+        "聯絡遊戲官方客服；有金錢損失再聯絡銀行與警方"
+      ],
+      "seekHelpWhen": "需要交帳密、替別人收錢，或付款後還要加繳時，立即求助。",
+      "sourceIds": [
+        "L04",
+        "L27",
+        "L21"
+      ]
+    },
+    {
+      "id": "game-reward",
+      "title": "假遊戲獎勵與帳號釣魚",
+      "category": "gaming",
+      "hook": "官方風格海報說填問卷送虛寶，小語點開後卻被要求輸入遊戲密碼、簡訊碼，甚至先買點數。",
+      "fictional": true,
+      "redFlags": [
+        "仿官方圖片不代表官方活動",
+        "領獎要求提供密碼、驗證碼或點數序號"
+      ],
+      "safeSteps": [
+        "自己開遊戲或官網活動公告查證",
+        "不把登入碼、點數序號交給私訊中的人"
+      ],
+      "afterSteps": [
+        "從真正官方入口改密碼、聯絡客服處理帳號異常",
+        "保留活動頁與對話；若已交點數，保存收據並向165求助"
+      ],
+      "seekHelpWhen": "不小心輸入帳密或驗證碼就要處理，不必等帳號真的被拿走。",
+      "sourceIds": [
+        "L05",
+        "L12",
+        "L14"
+      ]
+    },
+    {
+      "id": "investment",
+      "title": "假投資群與假獲利App",
+      "category": "money",
+      "hook": "小安加入理財群，大家都貼獲利圖。開始領到一小筆錢，之後客服卻說再繳費才能提出全部款項。",
+      "fictional": true,
+      "redFlags": [
+        "保證獲利、群友一致催促加碼",
+        "獲利只在陌生App顯示；提款另收保證金"
+      ],
+      "safeSteps": [
+        "投資前與可信任大人討論，從主管機關或機構官方管道核對業者及產品",
+        "小額曾出金、名人影片或群友推薦都不是安全保證"
+      ],
+      "afterSteps": [
+        "停止加碼與所謂解凍費",
+        "保留投資頁、轉帳及對話資料，立即聯絡銀行與警方"
+      ],
+      "seekHelpWhen": "被催借錢投資、安裝陌生App，或提款需先繳錢時就求助。",
+      "sourceIds": [
+        "L06",
+        "L26",
+        "L21"
+      ]
+    },
+    {
+      "id": "relationship",
+      "title": "假交友借錢與帶你投資",
+      "category": "money",
+      "hook": "每天陪小辰聊天的網友，最近開始請他幫忙支付急用款，還說一起投資才能規畫未來。",
+      "fictional": true,
+      "redFlags": [
+        "把感情信任變成付款壓力",
+        "要求保密、借錢或只相信對方推薦的平台"
+      ],
+      "safeSteps": [
+        "把關係與金錢決定分開，先和可信任的人討論",
+        "照片、證件照、長期聊天或視訊都不足以保證身分與投資安全"
+      ],
+      "afterSteps": [
+        "停止付款並保留紀錄",
+        "有損失時聯絡銀行、165或警察；找輔導老師或可信任大人陪伴"
+      ],
+      "seekHelpWhen": "感到不好意思拒絕、被要求瞞著家人朋友時，就是可以求助的時候。",
+      "sourceIds": [
+        "L07",
+        "L13",
+        "L21"
+      ]
+    },
+    {
+      "id": "job",
+      "title": "假打工：還沒工作先付錢",
+      "category": "work",
+      "hook": "小庭找假日工作，對方免面試就錄取，卻要先付材料保證金，還說薪轉需要寄提款卡。",
+      "fictional": true,
+      "redFlags": [
+        "職務、雇主與薪資內容說不清",
+        "以保證金、操作費或薪轉名義索款、索卡"
+      ],
+      "safeSteps": [
+        "自行核對公司資料與正式徵才管道，問清工作內容和契約",
+        "面試前告知親友行程；薪轉不需交出提款卡、密碼或OTP"
+      ],
+      "afterSteps": [
+        "未確認前不付款、不交證件正本與金融工具",
+        "已交款或帳戶資料，保留徵才訊息並聯絡銀行及警方"
+      ],
+      "seekHelpWhen": "要求寄卡、收款轉款、扣留證件，或限制離開時立即求助；有人身危險撥110。",
+      "sourceIds": [
+        "L08",
+        "L28",
+        "L18",
+        "L22"
+      ]
+    },
+    {
+      "id": "account",
+      "title": "借帳戶、賣帳戶與借門號",
+      "category": "work",
+      "hook": "網友說借用小晴的帳戶就能領酬勞，不用做事。帳戶後來出現她不認識的款項。",
+      "fictional": true,
+      "redFlags": [
+        "用報酬交換帳戶、提款卡或控制權",
+        "要你替陌生人接收不明款項，或以自己名義申辦再交給他人"
+      ],
+      "safeSteps": [
+        "不出租、出售或任意交付金融帳戶、卡片、密碼及門號",
+        "收到不明入帳請銀行協助，不照陌生人指示轉走"
+      ],
+      "afterSteps": [
+        "立即通知銀行與警方，說明何時提供了哪些資料",
+        "保留聊天及入帳紀錄，不刪除、不再提領或轉交不明款項"
+      ],
+      "seekHelpWhen": "交出資料、收到不明款項或發現帳戶受控，即請可信任大人協助。法律責任依個案判斷。",
+      "sourceIds": [
+        "L09",
+        "L22",
+        "L11",
+        "L29",
+        "L30"
+      ]
+    },
+    {
+      "id": "runner",
+      "title": "高薪收款、提款的車手陷阱",
+      "category": "work",
+      "hook": "一份兼差只要求小凱跑腿取現金，再交給指定的人。雇主說只是代收，不需要知道錢從哪來。",
+      "fictional": true,
+      "redFlags": [
+        "高薪卻沒有合理工作流程",
+        "幫陌生人取款、提款、轉交金融卡或來源不明現金"
+      ],
+      "safeSteps": [
+        "不接受來路不明的取款轉款工作",
+        "先向學校、可信任大人或165查證，別只聽仲介保證合法"
+      ],
+      "afterSteps": [
+        "停止接單並保存指示與對話",
+        "已參與請盡快向警方說明並尋求法律協助；勿自行對質或隱匿證據"
+      ],
+      "seekHelpWhen": "被要求收取或搬運不明款項就求助；遭威脅或被控制時，安全優先並撥110。",
+      "sourceIds": [
+        "L10",
+        "L18",
+        "L25"
+      ]
+    },
+    {
+      "id": "phishing",
+      "title": "假簡訊、投票連結與QR Code",
+      "category": "impersonation",
+      "hook": "小芃收到包裹補費簡訊，又看到朋友傳來投票QR Code；兩個頁面都催她重新登入。",
+      "fictional": true,
+      "redFlags": [
+        "以補費、領獎、停權或投票製造急迫感",
+        "陌生頁面索帳密、卡片資料或驗證碼"
+      ],
+      "safeSteps": [
+        "不從訊息直接登入，自己開官方App查看訂單與通知",
+        "QR Code只是連結載體；好友帳號、精美頁面、鎖頭圖示都不能單獨保證安全"
+      ],
+      "afterSteps": [
+        "若只開頁面，先停止操作；若已輸入資料，從官方入口改密碼、檢查登入並聯絡平台",
+        "金融資料外洩或有異常交易，立刻聯絡銀行與警方"
+      ],
+      "seekHelpWhen": "任何驗證碼被索取或出現陌生登入通知，都可請大人、平台客服或165協助。",
+      "sourceIds": [
+        "L11",
+        "L12",
+        "L14",
+        "L23"
+      ]
+    },
+    {
+      "id": "impersonation-ai",
+      "title": "盜用好友帳號與AI仿聲冒名",
+      "category": "impersonation",
+      "hook": "小樂收到像家人聲音的語音，也看到熟悉頭像傳來急借錢的訊息，對方說手機壞了不能久聊。",
+      "fictional": true,
+      "redFlags": [
+        "突然要求匯錢、點數或驗證碼",
+        "催促保密，阻止你用原本聯絡方式確認"
+      ],
+      "safeSteps": [
+        "暫停付款，用早已儲存的電話或當面確認",
+        "不要靠聲音像不像、視訊動作或共同照片單獨判定真假"
+      ],
+      "afterSteps": [
+        "保留訊息並用另一管道提醒真正的親友",
+        "若已付款，聯絡銀行與警方；帳號遭冒用也通知平台"
+      ],
+      "seekHelpWhen": "聲音再熟，只要突然涉及錢或驗證碼，就先查證。若對方宣稱家人正處危險，聯絡110求助。",
+      "sourceIds": [
+        "L13",
+        "L14",
+        "L18",
+        "L21"
+      ]
+    },
+    {
+      "id": "fake-police",
+      "title": "假檢警與監管帳戶",
+      "category": "impersonation",
+      "hook": "電話說小恩的證件被冒用，接著有人傳公文截圖，要他把存款交出，並說不能告訴任何人。",
+      "fictional": true,
+      "redFlags": [
+        "要求把財產交給對方監管",
+        "以涉案與保密壓力阻止求助；電話轉接來的身分未獨立確認"
+      ],
+      "safeSteps": [
+        "掛斷後自行查找機關正式電話，或撥165、110查證",
+        "不依來電指示交金融卡、密碼、現金或轉入所謂安全帳戶"
+      ],
+      "afterSteps": [
+        "保留公文截圖、來電及對話紀錄",
+        "有交付財物立刻聯絡銀行及警方；不要自行赴約對質"
+      ],
+      "seekHelpWhen": "一感到害怕就可找可信任大人陪同；有人威脅、正在取款或限制行動時撥110。",
+      "sourceIds": [
+        "L15",
+        "L18",
+        "L21"
+      ]
+    },
+    {
+      "id": "recovery",
+      "title": "假追回款項的二次詐騙",
+      "category": "money",
+      "hook": "小禾受騙後收到私訊，對方聲稱有特殊管道追回錢，但必須先交手續費和提款卡。",
+      "fictional": true,
+      "redFlags": [
+        "保證追回，稱與檢警有特殊關係",
+        "再收解凍費、驗證費或金融卡"
+      ],
+      "safeSteps": [
+        "只從原受理警察機關、銀行與經核實的法律協助管道追蹤",
+        "不相信任何人保證追回；別把新款項或控制帳戶的資料交出去"
+      ],
+      "afterSteps": [
+        "把新接觸訊息補充給承辦警方",
+        "若又付款或交金融資料，立即聯絡銀行及警方"
+      ],
+      "seekHelpWhen": "受騙後任何主動找上門的追回承諾，都先問165或原承辦警方。",
+      "sourceIds": [
+        "L16",
+        "L17",
+        "L21"
+      ]
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q01",
+      "fictional": true,
+      "question": "賣家傳了很多好評截圖，說球鞋只保留五分鐘。最安全的下一步？",
+      "options": [
+        "先匯少量訂金試試",
+        "請他再傳一張證件照就付款",
+        "暫停，從可信交易平台確認商品、保障與賣家"
+      ],
+      "answerIndex": 2,
+      "explanation": "截圖或證件照可被冒用，付款前應獨立查證。查不到可靠資訊就先不交易。",
+      "methodId": "shopping",
+      "sourceIds": [
+        "L01"
+      ]
+    },
+    {
+      "id": "Q02",
+      "fictional": true,
+      "question": "你正在賣課本，買家傳客服QR Code，說要刷卡驗證才能收款。你會？",
+      "options": [
+        "自行開原平台查訂單、找官方客服",
+        "照做，只要金額小就沒關係",
+        "請朋友替你掃碼付款"
+      ],
+      "answerIndex": 0,
+      "explanation": "收款流程突然要求刷卡或提供OTP是高風險情境；不要用對方提供的客服入口。",
+      "methodId": "fake-buyer",
+      "sourceIds": [
+        "L02"
+      ]
+    },
+    {
+      "id": "Q03",
+      "fictional": true,
+      "question": "來電知道你的訂單，說需ATM解除會員扣款。應怎麼做？",
+      "options": [
+        "因為知道訂單就配合",
+        "掛斷後自行找官方客服查證",
+        "把帳戶餘額告訴他"
+      ],
+      "answerIndex": 1,
+      "explanation": "知道真實交易內容不等於身分可信；ATM不能解除分期設定。",
+      "methodId": "installment",
+      "sourceIds": [
+        "L03"
+      ]
+    },
+    {
+      "id": "Q04",
+      "fictional": true,
+      "question": "遊戲活動頁要求給出簡訊碼才能領虛寶。哪個選擇安全？",
+      "options": [
+        "把碼給好友，請他代領",
+        "只提供一次",
+        "停止輸入，自己開遊戲公告查活動"
+      ],
+      "answerIndex": 2,
+      "explanation": "活動圖像可能被仿冒，驗證碼可能讓人控制帳號或交易，不能交給私訊中的人。",
+      "methodId": "game-reward",
+      "sourceIds": [
+        "L05"
+      ]
+    },
+    {
+      "id": "Q05",
+      "fictional": true,
+      "question": "投資群曾讓你提領小額，現在說補交保證金才能領回本金。應怎麼做？",
+      "options": [
+        "停止付款，保存紀錄並聯絡銀行與警方",
+        "既然曾出金就再付一次",
+        "借錢補到要求金額"
+      ],
+      "answerIndex": 0,
+      "explanation": "小額出金也可能是建立信任的手段，不能證明平台或帳面獲利真實。",
+      "methodId": "investment",
+      "sourceIds": [
+        "L06",
+        "L21"
+      ]
+    },
+    {
+      "id": "Q06",
+      "fictional": true,
+      "question": "打工雇主要求寄提款卡和密碼，說薪水才匯得進來。應怎麼做？",
+      "options": [
+        "把帳戶清空再寄",
+        "拒絕交卡密碼，查證公司並找大人或165協助",
+        "請同學借卡給你"
+      ],
+      "answerIndex": 1,
+      "explanation": "領薪水不需把帳戶控制權交出去。就算原本沒有錢，帳戶仍可能被拿來接收不明款項。",
+      "methodId": "job",
+      "sourceIds": [
+        "L08",
+        "L09"
+      ]
+    },
+    {
+      "id": "Q07",
+      "fictional": true,
+      "question": "兼差工作是到ATM提領陌生人的錢，再交給指定人。你該？",
+      "options": [
+        "先做一單再看",
+        "要求雇主保證沒事就做",
+        "不接單，保留徵才訊息並向可信任大人或165查證"
+      ],
+      "answerIndex": 2,
+      "explanation": "代收、提款與轉交不明款項可能涉及車手活動，雇主的保證不能排除法律風險。",
+      "methodId": "runner",
+      "sourceIds": [
+        "L10"
+      ]
+    },
+    {
+      "id": "Q08",
+      "fictional": true,
+      "question": "視訊裡的親友很像本人，卻急著借錢且不讓你回撥。最佳選擇？",
+      "options": [
+        "掛斷，用原本已知電話或當面確認",
+        "叫對方揮手成功就匯款",
+        "只要聲音像就相信"
+      ],
+      "answerIndex": 0,
+      "explanation": "AI可仿造聲音及影像。換用獨立、原本可信的聯絡管道，比找畫面破綻可靠。",
+      "methodId": "impersonation-ai",
+      "sourceIds": [
+        "L13"
+      ]
+    },
+    {
+      "id": "Q09",
+      "fictional": true,
+      "question": "對方自稱警察，要你把存款轉進監管帳戶並對家人保密。應怎麼做？",
+      "options": [
+        "等看到公文截圖就轉帳",
+        "停止，自己聯络機關或撥165／110查證",
+        "先轉一半表示配合"
+      ],
+      "answerIndex": 1,
+      "explanation": "假公文與恐懼壓力可被用來行騙。不要依來電交付財產，可信任大人可以陪你查證。",
+      "methodId": "fake-police",
+      "sourceIds": [
+        "L15",
+        "L18"
+      ]
+    },
+    {
+      "id": "Q10",
+      "fictional": true,
+      "question": "你剛匯款才發現疑似受騙，最重要的是？",
+      "options": [
+        "刪掉對話，避免被罵",
+        "付錢給私訊保證追回的人",
+        "停止再付，立即聯絡銀行與警方，保存紀錄並找人陪你"
+      ],
+      "answerIndex": 2,
+      "explanation": "快速通報可增加處理機會，但不保證追回。受騙不是你的錯，不用等到百分之百確定才求助。",
+      "methodId": "recovery",
+      "sourceIds": [
+        "L16",
+        "L17",
+        "L21"
+      ]
+    }
+  ],
+  "help": [
+    {
+      "id": "urgent",
+      "title": "有立即危險，先打110",
+      "body": "有人威脅、限制你離開、正在現場取款或需要警方立即協助，先確保自身安全並撥110。不要自己跟蹤、赴約或對質。",
+      "sourceIds": [
+        "L18"
+      ]
+    },
+    {
+      "id": "ask165",
+      "title": "不確定是不是詐騙，撥165",
+      "body": "165提供反詐騙諮詢、檢舉與報案。還沒付錢、只有疑慮也可以問；找家長、導師、輔導老師或其他可信任大人陪你。不必等到有損失。",
+      "sourceIds": [
+        "L17",
+        "L25"
+      ]
+    },
+    {
+      "id": "paid",
+      "title": "已匯款或交金融資料，立即聯絡銀行與警方",
+      "body": "停止付款。自行找銀行官方客服，說明疑似受騙、匯款時間、金額與對方帳戶，詢問可採取的攔阻或帳戶保護措施；同時撥165或向警方報案。若有人身危險或需即刻派警，撥110。能否攔阻或追回，取決於款項與案件狀況，沒有保證。",
+      "sourceIds": [
+        "L21",
+        "L23",
+        "L24",
+        "L18"
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "保留證據，不公開個資",
+      "body": "保存完整對話、帳號或網址、交易時間、轉帳紀錄與收據。不要因緊張刪除紀錄；不要把卡號、密碼、OTP或他人個資張貼到公開社群。這個教學網站不收集報案資料。",
+      "sourceIds": [
+        "L21",
+        "L22"
+      ]
+    },
+    {
+      "id": "account",
+      "title": "帳密、驗證碼或提款卡已交出",
+      "body": "從真正的官方App或官網更改帳號密碼、檢查異常登入並聯絡平台客服。金融資料涉及其中時立即通知銀行採取保護措施並報案。別再照對方指示收款、提款或轉帳。",
+      "sourceIds": [
+        "L12",
+        "L14",
+        "L22",
+        "L23"
+      ]
+    },
+    {
+      "id": "report",
+      "title": "通報可疑網址與正式報案不同",
+      "body": "可由數位發展部官方入口進入網路詐騙通報查詢網，查詢或通報可疑網址；查不到紀錄不代表安全。若已受害，請另向165或警察機關報案；165網路報案後仍應依指示完成筆錄等手續。",
+      "sourceIds": [
+        "L19",
+        "L17"
+      ]
+    },
+    {
+      "id": "support",
+      "title": "受騙不是你的錯",
+      "body": "設局騙人的責任在詐騙者。你可以先說：「我有一件需要幫忙的事，請先陪我處理。」朋友受騙時，先陪他停損、保存資料和求助，不責怪、不嘲笑。",
+      "sourceIds": [],
+      "editorial": true
+    }
+  ],
+  "legal": {
+    "checkedAt": "2026-10-05",
+    "sourceIds": [
+      "L09",
+      "L10"
+    ],
+    "summary": "無正當理由交付或提供帳戶給他人使用，可能受告誡、帳戶功能限制；符合收取或約定報酬、交付帳戶數量或再犯等法定條件，可能涉及刑事責任。條文保留一般商業金融交易習慣、親友信賴關係或其他正當理由的例外，不能把所有分享帳號行為一概當犯罪。",
+    "studentNote": "提款、收款或轉交金錢可能另涉及詐欺、洗錢等責任。是否違法、適用程序及後果，要依年齡、認知、行為與個案證據判斷。被通報、列警示、移送或起訴不等於有罪判決；請向警方及合格法律專業人員求助。",
+    "notAdvice": "本頁為一般防詐教育，不提供個案法律判斷或量刑保證。"
+  },
+  "sources": [
+    {
+      "id": "L01",
+      "title": "第一章：假網拍詐騙",
+      "url": "https://www.cib.npa.gov.tw/ch/app/data/view?id=1909&module=wg116&serno=7e614f6f-df9b-4ae2-8293-ed384fb1a470",
+      "publisher": "內政部警政署刑事警察局",
+      "checkedAt": "2026-10-05",
+      "publishedAt": null,
+      "supports": "低價熱門商品、門票與站外私下付款風險；平台交易與保存證據"
+    },
+    {
+      "id": "L02",
+      "title": "超商寄貨竟成詐騙溫床：假買家詐騙",
+      "url": "https://www.cib.npa.gov.tw/ch/app/news/view?id=1887&module=news&serno=ee5bec9e-7635-45d9-9573-359b98293796",
+      "publisher": "內政部警政署刑事警察局",
+      "checkedAt": "2026-10-05",
+      "publishedAt": "2026-03-17",
+      "supports": "假買家傳假客服、金流驗證、QR Code與OTP風險"
+    },
+    {
+      "id": "L03",
+      "title": "什麼是解除分期詐騙？",
+      "url": "https://md-fraud.police.gov.taipei/News_Content.aspx?n=BD99F0864A7983ED&s=1DBFDF6E5A3BD0BF&sms=25A240A82B494F61",
+      "publisher": "臺北市政府警察局刑事警察大隊",
+      "checkedAt": "2026-10-05",
+      "publishedAt": "2024-03-01",
+      "supports": "ATM不能解除分期；對方知道交易明細不代表真客服；自行回撥查證"
+    },
+    {
+      "id": "L04",
+      "title": "113年南投縣詐欺案件分析",
+      "url": "https://www.ncpd.gov.tw/df_ufiles/h/%E7%88%BE%E8%99%9E%E6%88%91%E8%A9%90-%E5%8D%97%E6%8A%95%E7%B8%A3%E8%A9%90%E6%AC%BA%E6%A1%88%E4%BB%B6%E5%88%86%E6%9E%90.pdf",
+      "publisher": "南投縣政府警察局",
+      "checkedAt": "2026-10-05",
+      "publishedAt": null,
+      "supports": "虛寶、遊戲幣假交易平台及保證金陷阱"
+    },
+    {
+      "id": "L05",
+      "title": "假活動送福利？遊戲活動小心藏詐騙陷阱",
+      "url": "https://web.moda.gov.tw/ADI/antifraud/af-third-case/20128",
+      "publisher": "數位發展部數位產業署",
+      "checkedAt": "2026-10-05",
+      "publishedAt": null,
+      "supports": "偽冒遊戲活動索取帳密、驗證碼、點數序號"
+    },
+    {
+      "id": "L06",
+      "title": "惡中之惡的詐騙手法：假投資詐騙",
+      "url": "https://www.tpc.moj.gov.tw/292885/976681/661783/1300265/post",
+      "publisher": "臺灣臺北地方檢察署",
+      "checkedAt": "2026-10-05",
+      "publishedAt": null,
+      "supports": "假投資平台、保證獲利、帳面數字、小額出金非安全證據"
+    },
+    {
+      "id": "L07",
+      "title": "愛情陷阱！假交友詐騙橫行",
+      "url": "https://police.npa.gov.tw/ch/app/data/view?id=1835&module=wg081&serno=0e226547-a730-4fb2-95b0-613e77746b82",
+      "publisher": "內政部警政署警光雜誌社",
+      "checkedAt": "2026-10-05",
+      "publishedAt": null,
+      "supports": "網路交友後要求金錢援助或投資的風險"
+    },
+    {
+      "id": "L08",
+      "title": "第七章：假求職",
+      "url": "https://www.cib.npa.gov.tw/ch/app/data/view?id=1909&module=wg116&serno=87a85079-c42f-48cb-9506-14e08c912a39",
+      "publisher": "內政部警政署刑事警察局",
+      "checkedAt": "2026-10-05",
+      "publishedAt": null,
+      "supports": "假薪轉騙提款卡與密碼；應徵查核、面試告知親友"
+    },
+    {
+      "id": "L09",
+      "title": "洗錢防制法第22條",
+      "url": "https://mojlaw.moj.gov.tw/LawContentExtent.aspx?LSID=FL006664&LawNo=22&media=print",
+      "publisher": "法務部主管法規查詢系統",
+      "checkedAt": "2026-10-05",
+      "publishedAt": "2024-07-31",
+      "supports": "無正當理由交付帳戶之告誡、刑責條件與帳戶功能限制；有法定例外"
+    },
+    {
+      "id": "L10",
+      "title": "容易賺的錢，是最貴的！",
+      "url": "https://www.tph.moj.gov.tw/4421/4475/632364/1410312/post",
+      "publisher": "臺灣高等檢察署",
+      "checkedAt": "2026-10-05",
+      "publishedAt": null,
+      "supports": "假高薪招攬收款提款車手；依客觀證據判斷個案法律責任"
+    },
+    {
+      "id": "L11",
+      "title": "網路購物詐騙結合釣魚連結案件攀升",
+      "url": "https://www.cib.npa.gov.tw/ch/app/news/view?id=1887&module=news&serno=26094d36-f617-40b5-9712-67b5199aac8b",
+      "publisher": "內政部警政署刑事警察局",
+      "checkedAt": "2026-10-05",
+      "publishedAt": null,
+      "supports": "假物流、假簡訊、金流驗證、個資卡號與OTP風險"
+    },
+    {
+      "id": "L12",
+      "title": "幫忙投票是釣魚陷阱",
+      "url": "https://www.cib.npa.gov.tw/ch/app/news/view?id=1887&module=news&serno=60c2b431-063b-427a-a609-95ad6b806748",
+      "publisher": "內政部警政署刑事警察局",
+      "checkedAt": "2026-10-05",
+      "publishedAt": null,
+      "supports": "假投票、陌生QR Code、帳密與認證碼、異常登入"
+    },
+    {
+      "id": "L13",
+      "title": "反詐騙宣導：AI深偽詐騙（完整版）",
+      "url": "https://wwwcdn.npa.gov.tw/ch/app/video/view?id=2275&module=video&serno=3328b46f-c588-44c9-a1fa-9f54adcade3f",
+      "publisher": "內政部警政署",
+      "checkedAt": "2026-10-05",
+      "publishedAt": null,
+      "supports": "AI仿聲換臉冒名；用原先確定的另一聯絡方式確認"
+    },
+    {
+      "id": "L14",
+      "title": "第八章：盜（冒）用網路帳號",
+      "url": "https://www.cib.npa.gov.tw/ch/app/data/view?id=1909&module=wg116&serno=a2f50753-ab28-469a-a6ce-59368758d083",
+      "publisher": "內政部警政署刑事警察局",
+      "checkedAt": "2026-10-05",
+      "publishedAt": null,
+      "supports": "好友帳號可能遭盜；借錢或買點數先電話確認；不同帳號避免共用密碼"
+    },
+    {
+      "id": "L15",
+      "title": "假冒戶政、檢警一條龍詐騙老梗又現",
+      "url": "https://www.cib.npa.gov.tw/ch/app/news/view?id=1887&module=news&serno=c59583e3-ae78-4c4f-8b58-852a1ac8f79e",
+      "publisher": "內政部警政署刑事警察局",
+      "checkedAt": "2026-10-05",
+      "publishedAt": "2026-07-12",
+      "supports": "假檢警恐嚇涉案、監管財產與保密指示"
+    },
+    {
+      "id": "L16",
+      "title": "詐團誆可幫追回遭詐款項：避免二次遭詐",
+      "url": "https://www.pbs.npa.gov.tw/ch/app/data/view?id=18740&module=wg183&serno=e027903f-5995-4aee-9431-973d11b0238c",
+      "publisher": "內政部警政署警察廣播電臺",
+      "checkedAt": "2026-10-05",
+      "publishedAt": null,
+      "supports": "假追回款項收費、索卡，應使用正規官方求助管道"
+    },
+    {
+      "id": "L17",
+      "title": "165反詐騙諮詢專線與網路報案常見問答",
+      "url": "https://www.npa.gov.tw/ch/app/faq/view?id=2144&module=faq&serno=A1078837",
+      "publisher": "內政部警政署",
+      "checkedAt": "2026-10-05",
+      "publishedAt": "2022-11-01",
+      "supports": "165提供諮詢、檢舉、報案；網路報案後需依指示完成筆錄等手續"
+    },
+    {
+      "id": "L18",
+      "title": "24小時緊急通報專線",
+      "url": "https://safemyhome.npa.gov.tw/ch/app/artwebsite/view?id=1358&module=artwebsite&serno=f1512793-602e-4977-beaa-356fbeba6bd6",
+      "publisher": "內政部警政署",
+      "checkedAt": "2026-10-05",
+      "publishedAt": null,
+      "supports": "110報警；165反詐騙諮詢"
+    },
+    {
+      "id": "L19",
+      "title": "網路詐騙通報查詢網相關連結",
+      "url": "https://moda.gov.tw/ADI/antifraud/af-toolbox/16212",
+      "publisher": "數位發展部數位產業署",
+      "checkedAt": "2026-10-05",
+      "publishedAt": "2026-06-15",
+      "supports": "官方確認的網路詐騙通報查詢入口"
+    },
+    {
+      "id": "L20",
+      "title": "165全民防騙網",
+      "url": "https://165.npa.gov.tw/",
+      "publisher": "內政部警政署",
+      "checkedAt": "2026-10-05",
+      "publishedAt": null,
+      "supports": "官方反詐入口與165打詐儀錶板連結"
+    },
+    {
+      "id": "L21",
+      "title": "網友催投虛擬貨幣：已匯款應立即聯絡銀行並報案",
+      "url": "https://news.immigration.gov.tw/NewsSection/Detail/4ebff724-256b-49be-8da1-17bcd6547fd1?lang=TW",
+      "publisher": "內政部移民署新住民全球新聞網",
+      "checkedAt": "2026-10-05",
+      "publishedAt": "2026-08-10",
+      "supports": "保存對話、帳戶資料、投資連結；已匯款即聯絡銀行與警方"
+    },
+    {
+      "id": "L22",
+      "title": "免費的最貴",
+      "url": "https://www.tpc.moj.gov.tw/292885/976681/661783/1439736/post",
+      "publisher": "臺灣臺北地方檢察署",
+      "checkedAt": "2026-10-05",
+      "publishedAt": null,
+      "supports": "交出帳戶後通知銀行停用或改密碼；勿刪對話、保存截圖"
+    },
+    {
+      "id": "L23",
+      "title": "可疑連結勿點擊，詐騙簡訊要核實",
+      "url": "https://moda.gov.tw/ADI/antifraud/af-third-case/18020",
+      "publisher": "數位發展部數位產業署",
+      "checkedAt": "2026-10-05",
+      "publishedAt": "2025-11-24",
+      "supports": "假繳費簡訊、卡片異常時聯絡銀行停卡"
+    },
+    {
+      "id": "L24",
+      "title": "金融機構及提供虛擬資產服務之事業或人員防制詐欺犯罪危害應遵循事項辦法",
+      "url": "https://law.fsc.gov.tw/LawContent.aspx?id=GL004003&media=print",
+      "publisher": "金融監督管理委員會",
+      "checkedAt": "2026-10-05",
+      "publishedAt": null,
+      "supports": "聯防、控管與剩餘款項發還之法定程序；不等同保證追回"
+    },
+    {
+      "id": "L25",
+      "title": "提升校園防範能力：強化識詐防詐",
+      "url": "https://www.moe.gov.tw/News_Content.aspx?n=9E7AC85F1954DDA8&s=831EACCB283856D9&sms=169B8E91BB75571F",
+      "publisher": "教育部國民及學前教育署",
+      "checkedAt": "2026-10-05",
+      "publishedAt": "2025-12-03",
+      "supports": "學生媒體識讀、AI、車手及法律教育的教學背景"
+    },
+    {
+      "id": "L26",
+      "title": "不肖人士偽冒金管會保險局人員進行投資詐騙",
+      "url": "https://www.fsc.gov.tw/ch/home.jsp?dataserno=202506050001&dtable=News&id=96&mcustomize=news_view.jsp&parentpath=0",
+      "publisher": "金融監督管理委員會",
+      "checkedAt": "2026-10-05",
+      "publishedAt": "2025-06-05",
+      "supports": "金融主管機關名義亦可能被冒用；金管會不以LINE或社群聯繫業務"
+    },
+    {
+      "id": "L27",
+      "title": "詐騙關鍵字與防詐提醒",
+      "url": "https://moda.gov.tw/ADI/antifraud/af-bulletin/keywords/1641",
+      "publisher": "數位發展部數位產業署",
+      "checkedAt": "2026-10-05",
+      "publishedAt": null,
+      "supports": "遊戲代抽代儲不交帳密、簡訊驗證碼；優先官方儲值"
+    },
+    {
+      "id": "L28",
+      "title": "警惕假求職陷阱",
+      "url": "https://police.npa.gov.tw/ch/app/data/view?id=1835&module=wg081&serno=8a72e874-4e26-4954-a71a-c540e7e33899",
+      "publisher": "內政部警政署警光雜誌社",
+      "checkedAt": "2026-10-05",
+      "publishedAt": null,
+      "supports": "高薪免經驗假職缺、制服費保證金與交提款卡風險"
+    },
+    {
+      "id": "L29",
+      "title": "網路購物詐騙橫行：常見態樣及手法",
+      "url": "https://www.cib.npa.gov.tw/ch/app/news/view?id=1887&module=news&serno=5ff4036a-a5c0-45b8-8113-67029fb961c5",
+      "publisher": "內政部警政署刑事警察局",
+      "checkedAt": "2026-10-05",
+      "publishedAt": null,
+      "supports": "假求職、兼差代辦誘交帳戶、提款卡與申辦手機門號；假買家與假門票"
+    },
+    {
+      "id": "L30",
+      "title": "警署澄清犯罪手法不合理：不明入帳處理提醒",
+      "url": "https://www.npa.gov.tw/ch/app/news/view?id=2141&module=clarification&serno=33443eca-96d7-4c6d-a251-cb584f5af193",
+      "publisher": "內政部警政署",
+      "checkedAt": "2026-10-05",
+      "publishedAt": "2021-09-09",
+      "supports": "帳戶出現不明款項應聯絡銀行；勿聽陌生訊息自行提款、轉帳。未使用其澄清之流傳謠言為案例。"
+    }
+  ],
+  "officialLinks": [
+    {
+      "label": "165全民防騙網",
+      "url": "https://165.npa.gov.tw/",
+      "sourceIds": [
+        "L20"
+      ]
+    },
+    {
+      "label": "165打詐儀錶板",
+      "url": "https://165dashboard.tw/",
+      "sourceIds": [
+        "L20"
+      ]
+    },
+    {
+      "label": "網路詐騙通報查詢：數發部官方入口",
+      "url": "https://moda.gov.tw/ADI/antifraud/af-toolbox/16212",
+      "sourceIds": [
+        "L19"
+      ]
+    }
+  ],
+  "editorialNotes": [
+    "所有小故事與測驗人物均為虛構教育情境，不是真實個案報導。",
+    "14類是教學分類，不是警政統計分類、排名或歷年發生次序。",
+    "警訊用於提醒停止查證；未出現警訊、查不到通報、網站有鎖頭、帳號有好評，都不保證安全。",
+    "建議同時顯示來源與查核日期；來源未標日期者不猜測發文日。",
+    "若製作互動測驗，錯答回饋請鼓勵再試；不以智商、貪心或羞辱措辭描述被害人。",
+    "不提供詐騙腳本、可點擊惡意連結、真實被害人個資或可用的OTP／帳戶資料。"
+  ]
+}

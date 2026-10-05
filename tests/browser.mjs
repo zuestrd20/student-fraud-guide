@@ -1,0 +1,19 @@
+import { chromium } from 'playwright';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import path from 'node:path';
+import os from 'node:os';
+const outputDir=process.env.OUTPUT_DIR||path.join(os.tmpdir(),'student-fraud-guide-qa');
+fs.mkdirSync(outputDir,{recursive:true});
+const browser=await chromium.launch({headless:true,...(process.env.CHROMIUM_EXECUTABLE_PATH?{executablePath:process.env.CHROMIUM_EXECUTABLE_PATH}:{})});
+const page=await browser.newPage({viewport:{width:1440,height:1000}});const errors=[];page.on('pageerror',e=>errors.push(e.message));
+const base=process.env.TEST_URL||'http://127.0.0.1:8126/';
+await page.goto(base);await page.locator('.hero').waitFor();assert.equal(await page.locator('h1').count(),1);
+await page.screenshot({path:path.join(outputDir,'fraud-desktop.png'),fullPage:true});
+await page.goto(base+'#data');await page.locator('#year').waitFor();await page.selectOption('#year','2024');await page.selectOption('#metric','victims');assert.match(await page.locator('.chart-box h2').innerText(),/被害人/);assert.equal(await page.locator('.bar-row').count(),10);assert.equal(await page.locator('.bar-row.break').count(),2);await page.click('#reset-data');assert.equal(await page.locator('#year').inputValue(),'2025');
+await page.goto(base+'#methods');await page.locator('#search').fill('不存在的字串');await page.waitForTimeout(350);assert.equal(await page.locator('.method-card').count(),0);await page.click('#empty-reset');assert.equal(await page.locator('.method-card').count(),14);await page.selectOption('#category','gaming');assert.equal(await page.locator('.method-card').count(),2);await page.locator('summary').first().click();assert.equal(await page.locator('details[open]').count(),1);await page.click('#reset-methods');
+await page.goto(base+'#quiz');const l=JSON.parse(fs.readFileSync(new URL('../data/lessons.json',import.meta.url)));for(let i=0;i<l.quizzes.length;i++){await page.locator(`[data-answer="${l.quizzes[i].answerIndex}"]`).click();assert.ok(await page.locator('.feedback').isVisible());await page.click('#next');}await page.locator('.completion').waitFor();assert.equal((await page.locator('.score').innerText()).trim(),'10 / 10');await page.click('#restart');assert.equal(await page.locator('.feedback').count(),0);await page.locator('[data-answer="0"]').click();await page.click('#next');await page.goBack();assert.ok(await page.locator('.feedback').isVisible());await page.goto(base+'#quiz?q=9');await page.locator('[data-answer="0"]').click();await page.click('#next');assert.ok(!await page.locator('.completion').count());
+await page.goto(base+'#sources');const downloadPromise=page.waitForEvent('download');await page.getByText('下載含口徑與來源的 JSON').click();const download=await downloadPromise;assert.equal(download.suggestedFilename(),'taiwan-fraud-2016-2025.json');
+for(const width of [390,320]){await page.setViewportSize({width,height:844});for(const route of ['home','data','methods','quiz','help','sources']){await page.goto(base+'#'+route);await page.waitForTimeout(80);assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),`${route} overflows at ${width}`);}await page.goto(base+'#home');if(width===390)await page.screenshot({path:path.join(outputDir,'fraud-mobile.png'),fullPage:true});}
+await page.setViewportSize({width:1280,height:900});await page.goto(base+'#home');await page.evaluate(()=>document.documentElement.style.fontSize='200%');assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'200% text overflow');
+assert.deepEqual(errors,[]);console.log('PASS: desktop/mobile 390+320px, 200% text, data filters/reset, methods search/category/empty/reset/details, 10 quizzes/results/reset/back/deep link, JSON download; no browser errors.');await browser.close();

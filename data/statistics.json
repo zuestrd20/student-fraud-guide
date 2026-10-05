@@ -1,0 +1,1548 @@
+{
+  "version": "1.3",
+  "checkedAt": "2026-10-05",
+  "scope": "臺灣警方受（處）理詐欺案件，2016–2025完整曆年。非全部真實受害、非定罪或判決統計。",
+  "metrics": [
+    {
+      "id": "cases",
+      "label": "警方記錄案件",
+      "unit": "件",
+      "definition": "含補報的詐欺案件發生數；2024-09計數制度改變。"
+    },
+    {
+      "id": "victims",
+      "label": "警方記錄被害人",
+      "unit": "人",
+      "definition": "原表被害人數，未證實跨案去重；不可稱獨立受騙人數。"
+    },
+    {
+      "id": "lossNTD",
+      "label": "記錄財損",
+      "unit": "新臺幣元",
+      "definition": "警方記錄財產損失，非追回或攔阻金額。"
+    }
+  ],
+  "years": [
+    {
+      "year": 2016,
+      "period": "2016-01-01/2016-12-31",
+      "cases": 23175,
+      "victims": 36211,
+      "uniqueVictims": null,
+      "lossNTD": 3831614687,
+      "casesSourceIds": [
+        "cib-2025"
+      ],
+      "victimsSourceIds": [
+        "moi-2018"
+      ],
+      "lossNTDSourceIds": [
+        "moj-2024-losses"
+      ],
+      "sourceIds": [
+        "cib-2025",
+        "moi-2018",
+        "moj-2024-losses"
+      ],
+      "casesDefinition": "警方受（處）理詐欺案件發生數，含補報發生；不是法院定罪數。",
+      "victimsDefinition": "警方記錄詐欺案件被害人，原表單位為人；來源未說明年度跨案去重，不可解讀為獨立人數。",
+      "victimsMale": null,
+      "victimsFemale": null,
+      "comparabilityGroup": "legacy-through-2023",
+      "breakBefore": false,
+      "notes": [],
+      "missingReasons": {
+        "uniqueVictims": "未找到跨案去重的獨立被害人統計，不以案件數估算。"
+      },
+      "lossSeries": "police_criminal_record_fraud_loss",
+      "lossNTDDefinition": "警察機關刑案紀錄之詐欺案件被害總金額，單位新臺幣元；不是實際社會所有詐騙損失估計，非攔阻或追回金額。"
+    },
+    {
+      "year": 2017,
+      "period": "2017-01-01/2017-12-31",
+      "cases": 22689,
+      "victims": 37257,
+      "uniqueVictims": null,
+      "lossNTD": 4047910039,
+      "casesSourceIds": [
+        "npa-latest-tables",
+        "cib-2025"
+      ],
+      "victimsSourceIds": [
+        "moi-2018"
+      ],
+      "lossNTDSourceIds": [
+        "moj-2024-losses"
+      ],
+      "sourceIds": [
+        "cib-2025",
+        "moi-2018",
+        "moj-2024-losses"
+      ],
+      "casesDefinition": "警方受（處）理詐欺案件發生數，含補報發生；不是法院定罪數。",
+      "victimsDefinition": "警方記錄詐欺案件被害人，原表單位為人；來源未說明年度跨案去重，不可解讀為獨立人數。",
+      "victimsMale": null,
+      "victimsFemale": null,
+      "comparabilityGroup": "legacy-through-2023",
+      "breakBefore": false,
+      "notes": [],
+      "missingReasons": {
+        "uniqueVictims": "未找到跨案去重的獨立被害人統計，不以案件數估算。"
+      },
+      "lossSeries": "police_criminal_record_fraud_loss",
+      "lossNTDDefinition": "警察機關刑案紀錄之詐欺案件被害總金額，單位新臺幣元；不是實際社會所有詐騙損失估計，非攔阻或追回金額。"
+    },
+    {
+      "year": 2018,
+      "period": "2018-01-01/2018-12-31",
+      "cases": 23470,
+      "victims": 35718,
+      "uniqueVictims": null,
+      "lossNTD": 3969141892,
+      "casesSourceIds": [
+        "npa-latest-tables",
+        "cib-2025"
+      ],
+      "victimsSourceIds": [
+        "moi-2018"
+      ],
+      "lossNTDSourceIds": [
+        "moj-2024-losses"
+      ],
+      "sourceIds": [
+        "cib-2025",
+        "moi-2018",
+        "moj-2024-losses"
+      ],
+      "casesDefinition": "警方受（處）理詐欺案件發生數，含補報發生；不是法院定罪數。",
+      "victimsDefinition": "警方記錄詐欺案件被害人，原表單位為人；來源未說明年度跨案去重，不可解讀為獨立人數。",
+      "victimsMale": null,
+      "victimsFemale": null,
+      "comparabilityGroup": "legacy-through-2023",
+      "breakBefore": false,
+      "notes": [],
+      "missingReasons": {
+        "uniqueVictims": "未找到跨案去重的獨立被害人統計，不以案件數估算。"
+      },
+      "lossSeries": "police_criminal_record_fraud_loss",
+      "lossNTDDefinition": "警察機關刑案紀錄之詐欺案件被害總金額，單位新臺幣元；不是實際社會所有詐騙損失估計，非攔阻或追回金額。"
+    },
+    {
+      "year": 2019,
+      "period": "2019-01-01/2019-12-31",
+      "cases": 23647,
+      "victims": 34482,
+      "uniqueVictims": null,
+      "lossNTD": 4293483761,
+      "casesSourceIds": [
+        "npa-latest-tables",
+        "cib-2025"
+      ],
+      "victimsSourceIds": [
+        "npa-2023-gender"
+      ],
+      "lossNTDSourceIds": [
+        "moj-2024-losses"
+      ],
+      "sourceIds": [
+        "cib-2025",
+        "npa-2023-gender",
+        "moj-2024-losses"
+      ],
+      "casesDefinition": "警方受（處）理詐欺案件發生數，含補報發生；不是法院定罪數。",
+      "victimsDefinition": "警方記錄詐欺案件被害人，原表單位為人；來源未說明年度跨案去重，不可解讀為獨立人數。",
+      "victimsMale": 17373,
+      "victimsFemale": 17109,
+      "comparabilityGroup": "legacy-through-2023",
+      "breakBefore": false,
+      "notes": [],
+      "missingReasons": {
+        "uniqueVictims": "未找到跨案去重的獨立被害人統計，不以案件數估算。"
+      },
+      "lossSeries": "police_criminal_record_fraud_loss",
+      "lossNTDDefinition": "警察機關刑案紀錄之詐欺案件被害總金額，單位新臺幣元；不是實際社會所有詐騙損失估計，非攔阻或追回金額。"
+    },
+    {
+      "year": 2020,
+      "period": "2020-01-01/2020-12-31",
+      "cases": 23054,
+      "victims": 36952,
+      "uniqueVictims": null,
+      "lossNTD": 4255063324,
+      "casesSourceIds": [
+        "npa-latest-tables",
+        "cib-2025"
+      ],
+      "victimsSourceIds": [
+        "npa-2023-gender"
+      ],
+      "lossNTDSourceIds": [
+        "moj-2024-losses"
+      ],
+      "sourceIds": [
+        "cib-2025",
+        "npa-2023-gender",
+        "moj-2024-losses"
+      ],
+      "casesDefinition": "警方受（處）理詐欺案件發生數，含補報發生；不是法院定罪數。",
+      "victimsDefinition": "警方記錄詐欺案件被害人，原表單位為人；來源未說明年度跨案去重，不可解讀為獨立人數。",
+      "victimsMale": 18432,
+      "victimsFemale": 18520,
+      "comparabilityGroup": "legacy-through-2023",
+      "breakBefore": false,
+      "notes": [],
+      "missingReasons": {
+        "uniqueVictims": "未找到跨案去重的獨立被害人統計，不以案件數估算。"
+      },
+      "lossSeries": "police_criminal_record_fraud_loss",
+      "lossNTDDefinition": "警察機關刑案紀錄之詐欺案件被害總金額，單位新臺幣元；不是實際社會所有詐騙損失估計，非攔阻或追回金額。"
+    },
+    {
+      "year": 2021,
+      "period": "2021-01-01/2021-12-31",
+      "cases": 24724,
+      "victims": 44674,
+      "uniqueVictims": null,
+      "lossNTD": 5610377324,
+      "casesSourceIds": [
+        "npa-latest-tables",
+        "cib-2025"
+      ],
+      "victimsSourceIds": [
+        "npa-2023-gender"
+      ],
+      "lossNTDSourceIds": [
+        "moj-2024-losses"
+      ],
+      "sourceIds": [
+        "cib-2025",
+        "npa-2023-gender",
+        "moj-2024-losses"
+      ],
+      "casesDefinition": "警方受（處）理詐欺案件發生數，含補報發生；不是法院定罪數。",
+      "victimsDefinition": "警方記錄詐欺案件被害人，原表單位為人；來源未說明年度跨案去重，不可解讀為獨立人數。",
+      "victimsMale": 22078,
+      "victimsFemale": 22596,
+      "comparabilityGroup": "legacy-through-2023",
+      "breakBefore": false,
+      "notes": [],
+      "missingReasons": {
+        "uniqueVictims": "未找到跨案去重的獨立被害人統計，不以案件數估算。"
+      },
+      "lossSeries": "police_criminal_record_fraud_loss",
+      "lossNTDDefinition": "警察機關刑案紀錄之詐欺案件被害總金額，單位新臺幣元；不是實際社會所有詐騙損失估計，非攔阻或追回金額。"
+    },
+    {
+      "year": 2022,
+      "period": "2022-01-01/2022-12-31",
+      "cases": 29509,
+      "victims": 53062,
+      "uniqueVictims": null,
+      "lossNTD": 7328123598,
+      "casesSourceIds": [
+        "npa-latest-tables",
+        "cib-2025"
+      ],
+      "victimsSourceIds": [
+        "npa-2023-gender"
+      ],
+      "lossNTDSourceIds": [
+        "moj-2024-losses"
+      ],
+      "sourceIds": [
+        "cib-2025",
+        "npa-2023-gender",
+        "moj-2024-losses"
+      ],
+      "casesDefinition": "警方受（處）理詐欺案件發生數，含補報發生；不是法院定罪數。",
+      "victimsDefinition": "警方記錄詐欺案件被害人，原表單位為人；來源未說明年度跨案去重，不可解讀為獨立人數。",
+      "victimsMale": 25582,
+      "victimsFemale": 27480,
+      "comparabilityGroup": "legacy-through-2023",
+      "breakBefore": false,
+      "notes": [],
+      "missingReasons": {
+        "uniqueVictims": "未找到跨案去重的獨立被害人統計，不以案件數估算。"
+      },
+      "lossSeries": "police_criminal_record_fraud_loss",
+      "lossNTDDefinition": "警察機關刑案紀錄之詐欺案件被害總金額，單位新臺幣元；不是實際社會所有詐騙損失估計，非攔阻或追回金額。"
+    },
+    {
+      "year": 2023,
+      "period": "2023-01-01/2023-12-31",
+      "cases": 37823,
+      "victims": 60082,
+      "uniqueVictims": null,
+      "lossNTD": 8944381546,
+      "casesSourceIds": [
+        "npa-latest-tables",
+        "cib-2025"
+      ],
+      "victimsSourceIds": [
+        "npa-2023-gender"
+      ],
+      "lossNTDSourceIds": [
+        "moj-2024-losses"
+      ],
+      "sourceIds": [
+        "cib-2025",
+        "npa-2023-gender",
+        "moj-2024-losses"
+      ],
+      "casesDefinition": "警方受（處）理詐欺案件發生數，含補報發生；不是法院定罪數。",
+      "victimsDefinition": "警方記錄詐欺案件被害人，原表單位為人；來源未說明年度跨案去重，不可解讀為獨立人數。",
+      "victimsMale": 28720,
+      "victimsFemale": 31362,
+      "comparabilityGroup": "legacy-through-2023",
+      "breakBefore": false,
+      "notes": [],
+      "missingReasons": {
+        "uniqueVictims": "未找到跨案去重的獨立被害人統計，不以案件數估算。"
+      },
+      "lossSeries": "police_criminal_record_fraud_loss",
+      "lossNTDDefinition": "警察機關刑案紀錄之詐欺案件被害總金額，單位新臺幣元；不是實際社會所有詐騙損失估計，非攔阻或追回金額。"
+    },
+    {
+      "year": 2024,
+      "period": "2024-01-01/2024-12-31",
+      "cases": 118535,
+      "victims": 130063,
+      "uniqueVictims": null,
+      "lossNTD": 48764176661,
+      "casesSourceIds": [
+        "npa-latest-tables",
+        "cib-2025"
+      ],
+      "victimsSourceIds": [
+        "npa-2024-gender"
+      ],
+      "lossNTDSourceIds": [
+        "moj-2024-losses"
+      ],
+      "sourceIds": [
+        "cib-2025",
+        "npa-2024-gender",
+        "moj-2024-losses"
+      ],
+      "casesDefinition": "警方受（處）理詐欺案件發生數，含補報發生；不是法院定罪數。",
+      "victimsDefinition": "警方記錄詐欺案件被害人，原表單位為人；來源未說明年度跨案去重，不可解讀為獨立人數。",
+      "victimsMale": 58874,
+      "victimsFemale": 71189,
+      "comparabilityGroup": "mixed-2024",
+      "breakBefore": true,
+      "notes": [
+        "2024年9月起計數方式改制，本年含新舊制資料，不與前後年計算增減。"
+      ],
+      "missingReasons": {
+        "uniqueVictims": "未找到跨案去重的獨立被害人統計，不以案件數估算。"
+      },
+      "lossSeries": "police_criminal_record_fraud_loss",
+      "lossNTDDefinition": "警察機關刑案紀錄之詐欺案件被害總金額，單位新臺幣元；不是實際社會所有詐騙損失估計，非攔阻或追回金額。"
+    },
+    {
+      "year": 2025,
+      "period": "2025-01-01/2025-12-31",
+      "cases": 197452,
+      "victims": 199765,
+      "uniqueVictims": null,
+      "lossNTD": null,
+      "casesSourceIds": [
+        "npa-latest-tables",
+        "cib-2025"
+      ],
+      "victimsSourceIds": [
+        "cib-2025"
+      ],
+      "lossNTDSourceIds": [],
+      "sourceIds": [
+        "cib-2025"
+      ],
+      "casesDefinition": "警方受（處）理詐欺案件發生數，含補報發生；不是法院定罪數。",
+      "victimsDefinition": "警方記錄詐欺案件被害人，原表單位為人；來源未說明年度跨案去重，不可解讀為獨立人數。",
+      "victimsMale": 94919,
+      "victimsFemale": 104846,
+      "comparabilityGroup": "new-from-2025",
+      "breakBefore": true,
+      "notes": [
+        "新制全年，不能與2024混合年或舊制直接計算增減。"
+      ],
+      "missingReasons": {
+        "uniqueVictims": "未找到跨案去重的獨立被害人統計，不以案件數估算。",
+        "lossNTD": "尚未核得與本表刑案紀錄同口徑的2025全年正式財損；165儀錶板為不同系列，未混入。"
+      },
+      "lossSeries": "police_criminal_record_fraud_loss",
+      "lossNTDDefinition": "警察機關刑案紀錄之詐欺案件被害總金額，單位新臺幣元；不是實際社會所有詐騙損失估計，非攔阻或追回金額。"
+    }
+  ],
+  "typesByYear": [
+    {
+      "year": 2018,
+      "label": "假冒名義詐欺",
+      "cases": 4167,
+      "victims": 6333,
+      "lossNTD": null,
+      "sourceIds": [
+        "moi-2018"
+      ],
+      "classification": "pre-2019",
+      "coverage": "主要分類及其他，非所有細分手法",
+      "missingReasons": {
+        "lossNTD": "本表沒有按手法財損。"
+      }
+    },
+    {
+      "year": 2018,
+      "label": "假網路拍賣(購物)",
+      "cases": 4029,
+      "victims": 7037,
+      "lossNTD": null,
+      "sourceIds": [
+        "moi-2018"
+      ],
+      "classification": "pre-2019",
+      "coverage": "主要分類及其他，非所有細分手法",
+      "missingReasons": {
+        "lossNTD": "本表沒有按手法財損。"
+      }
+    },
+    {
+      "year": 2018,
+      "label": "解除分期付款詐欺(ATM)",
+      "cases": 3228,
+      "victims": 6328,
+      "lossNTD": null,
+      "sourceIds": [
+        "moi-2018"
+      ],
+      "classification": "pre-2019",
+      "coverage": "主要分類及其他，非所有細分手法",
+      "missingReasons": {
+        "lossNTD": "本表沒有按手法財損。"
+      }
+    },
+    {
+      "year": 2018,
+      "label": "拒付款項(賴帳)",
+      "cases": 2217,
+      "victims": 2370,
+      "lossNTD": null,
+      "sourceIds": [
+        "moi-2018"
+      ],
+      "classification": "pre-2019",
+      "coverage": "主要分類及其他，非所有細分手法",
+      "missingReasons": {
+        "lossNTD": "本表沒有按手法財損。"
+      }
+    },
+    {
+      "year": 2018,
+      "label": "偽稱買賣",
+      "cases": 1990,
+      "victims": 2618,
+      "lossNTD": null,
+      "sourceIds": [
+        "moi-2018"
+      ],
+      "classification": "pre-2019",
+      "coverage": "主要分類及其他，非所有細分手法",
+      "missingReasons": {
+        "lossNTD": "本表沒有按手法財損。"
+      }
+    },
+    {
+      "year": 2018,
+      "label": "投資詐欺",
+      "cases": 1435,
+      "victims": 1910,
+      "lossNTD": null,
+      "sourceIds": [
+        "moi-2018"
+      ],
+      "classification": "pre-2019",
+      "coverage": "主要分類及其他，非所有細分手法",
+      "missingReasons": {
+        "lossNTD": "本表沒有按手法財損。"
+      }
+    },
+    {
+      "year": 2018,
+      "label": "假冒機構(公務員)",
+      "cases": 1114,
+      "victims": 1481,
+      "lossNTD": null,
+      "sourceIds": [
+        "moi-2018"
+      ],
+      "classification": "pre-2019",
+      "coverage": "主要分類及其他，非所有細分手法",
+      "missingReasons": {
+        "lossNTD": "本表沒有按手法財損。"
+      }
+    },
+    {
+      "year": 2018,
+      "label": "色情應召詐財",
+      "cases": 1038,
+      "victims": 1107,
+      "lossNTD": null,
+      "sourceIds": [
+        "moi-2018"
+      ],
+      "classification": "pre-2019",
+      "coverage": "主要分類及其他，非所有細分手法",
+      "missingReasons": {
+        "lossNTD": "本表沒有按手法財損。"
+      }
+    },
+    {
+      "year": 2018,
+      "label": "假稱傷病貧困",
+      "cases": 478,
+      "victims": 567,
+      "lossNTD": null,
+      "sourceIds": [
+        "moi-2018"
+      ],
+      "classification": "pre-2019",
+      "coverage": "主要分類及其他，非所有細分手法",
+      "missingReasons": {
+        "lossNTD": "本表沒有按手法財損。"
+      }
+    },
+    {
+      "year": 2018,
+      "label": "冒(盜)領現金",
+      "cases": 461,
+      "victims": 683,
+      "lossNTD": null,
+      "sourceIds": [
+        "moi-2018"
+      ],
+      "classification": "pre-2019",
+      "coverage": "主要分類及其他，非所有細分手法",
+      "missingReasons": {
+        "lossNTD": "本表沒有按手法財損。"
+      }
+    },
+    {
+      "year": 2018,
+      "label": "詐騙銀行帳號密碼詐財",
+      "cases": 392,
+      "victims": 545,
+      "lossNTD": null,
+      "sourceIds": [
+        "moi-2018"
+      ],
+      "classification": "pre-2019",
+      "coverage": "主要分類及其他，非所有細分手法",
+      "missingReasons": {
+        "lossNTD": "本表沒有按手法財損。"
+      }
+    },
+    {
+      "year": 2018,
+      "label": "假貨押騙(售)",
+      "cases": 386,
+      "victims": 1048,
+      "lossNTD": null,
+      "sourceIds": [
+        "moi-2018"
+      ],
+      "classification": "pre-2019",
+      "coverage": "主要分類及其他，非所有細分手法",
+      "missingReasons": {
+        "lossNTD": "本表沒有按手法財損。"
+      }
+    },
+    {
+      "year": 2018,
+      "label": "其他",
+      "cases": 2535,
+      "victims": 3691,
+      "lossNTD": null,
+      "sourceIds": [
+        "moi-2018"
+      ],
+      "classification": "pre-2019",
+      "coverage": "主要分類及其他，非所有細分手法",
+      "missingReasons": {
+        "lossNTD": "本表沒有按手法財損。"
+      }
+    },
+    {
+      "year": 2021,
+      "label": "投資詐欺",
+      "cases": 4896,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "ly-2021-2023-methods"
+      ],
+      "classification": "2019-revision",
+      "coverage": "年度前十項及其他，其他的細分內容逐年可能不同",
+      "missingReasons": {
+        "victims": "本表未提供手法別被害人數。",
+        "lossNTD": "本表未提供手法別財損。"
+      }
+    },
+    {
+      "year": 2021,
+      "label": "解除分期付款詐欺(ATM)",
+      "cases": 4328,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "ly-2021-2023-methods"
+      ],
+      "classification": "2019-revision",
+      "coverage": "年度前十項及其他，其他的細分內容逐年可能不同",
+      "missingReasons": {
+        "victims": "本表未提供手法別被害人數。",
+        "lossNTD": "本表未提供手法別財損。"
+      }
+    },
+    {
+      "year": 2021,
+      "label": "一般購物詐欺(偽稱買賣)",
+      "cases": 3004,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "ly-2021-2023-methods"
+      ],
+      "classification": "2019-revision",
+      "coverage": "年度前十項及其他，其他的細分內容逐年可能不同",
+      "missingReasons": {
+        "victims": "本表未提供手法別被害人數。",
+        "lossNTD": "本表未提供手法別財損。"
+      }
+    },
+    {
+      "year": 2021,
+      "label": "假網路拍賣(購物)",
+      "cases": 2619,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "ly-2021-2023-methods"
+      ],
+      "classification": "2019-revision",
+      "coverage": "年度前十項及其他，其他的細分內容逐年可能不同",
+      "missingReasons": {
+        "victims": "本表未提供手法別被害人數。",
+        "lossNTD": "本表未提供手法別財損。"
+      }
+    },
+    {
+      "year": 2021,
+      "label": "猜猜我是誰",
+      "cases": 1758,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "ly-2021-2023-methods"
+      ],
+      "classification": "2019-revision",
+      "coverage": "年度前十項及其他，其他的細分內容逐年可能不同",
+      "missingReasons": {
+        "victims": "本表未提供手法別被害人數。",
+        "lossNTD": "本表未提供手法別財損。"
+      }
+    },
+    {
+      "year": 2021,
+      "label": "假愛情交友",
+      "cases": 1174,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "ly-2021-2023-methods"
+      ],
+      "classification": "2019-revision",
+      "coverage": "年度前十項及其他，其他的細分內容逐年可能不同",
+      "missingReasons": {
+        "victims": "本表未提供手法別被害人數。",
+        "lossNTD": "本表未提供手法別財損。"
+      }
+    },
+    {
+      "year": 2021,
+      "label": "假冒機構(公務員)",
+      "cases": 1121,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "ly-2021-2023-methods"
+      ],
+      "classification": "2019-revision",
+      "coverage": "年度前十項及其他，其他的細分內容逐年可能不同",
+      "missingReasons": {
+        "victims": "本表未提供手法別被害人數。",
+        "lossNTD": "本表未提供手法別財損。"
+      }
+    },
+    {
+      "year": 2021,
+      "label": "借錢不還含票據詐欺(空頭)",
+      "cases": 929,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "ly-2021-2023-methods"
+      ],
+      "classification": "2019-revision",
+      "coverage": "年度前十項及其他，其他的細分內容逐年可能不同",
+      "missingReasons": {
+        "victims": "本表未提供手法別被害人數。",
+        "lossNTD": "本表未提供手法別財損。"
+      }
+    },
+    {
+      "year": 2021,
+      "label": "遊戲點數(含虛擬寶物)詐欺",
+      "cases": 846,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "ly-2021-2023-methods"
+      ],
+      "classification": "2019-revision",
+      "coverage": "年度前十項及其他，其他的細分內容逐年可能不同",
+      "missingReasons": {
+        "victims": "本表未提供手法別被害人數。",
+        "lossNTD": "本表未提供手法別財損。"
+      }
+    },
+    {
+      "year": 2021,
+      "label": "佯稱代辦貸款",
+      "cases": 682,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "ly-2021-2023-methods"
+      ],
+      "classification": "2019-revision",
+      "coverage": "年度前十項及其他，其他的細分內容逐年可能不同",
+      "missingReasons": {
+        "victims": "本表未提供手法別被害人數。",
+        "lossNTD": "本表未提供手法別財損。"
+      }
+    },
+    {
+      "year": 2021,
+      "label": "其他",
+      "cases": 3367,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "ly-2021-2023-methods"
+      ],
+      "classification": "2019-revision",
+      "coverage": "年度前十項及其他，其他的細分內容逐年可能不同",
+      "missingReasons": {
+        "victims": "本表未提供手法別被害人數。",
+        "lossNTD": "本表未提供手法別財損。"
+      }
+    },
+    {
+      "year": 2022,
+      "label": "投資詐欺",
+      "cases": 6542,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "ly-2021-2023-methods"
+      ],
+      "classification": "2019-revision",
+      "coverage": "年度前十項及其他，其他的細分內容逐年可能不同",
+      "missingReasons": {
+        "victims": "本表未提供手法別被害人數。",
+        "lossNTD": "本表未提供手法別財損。"
+      }
+    },
+    {
+      "year": 2022,
+      "label": "解除分期付款詐欺(ATM)",
+      "cases": 5084,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "ly-2021-2023-methods"
+      ],
+      "classification": "2019-revision",
+      "coverage": "年度前十項及其他，其他的細分內容逐年可能不同",
+      "missingReasons": {
+        "victims": "本表未提供手法別被害人數。",
+        "lossNTD": "本表未提供手法別財損。"
+      }
+    },
+    {
+      "year": 2022,
+      "label": "一般購物詐欺(偽稱買賣)",
+      "cases": 3496,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "ly-2021-2023-methods"
+      ],
+      "classification": "2019-revision",
+      "coverage": "年度前十項及其他，其他的細分內容逐年可能不同",
+      "missingReasons": {
+        "victims": "本表未提供手法別被害人數。",
+        "lossNTD": "本表未提供手法別財損。"
+      }
+    },
+    {
+      "year": 2022,
+      "label": "假網路拍賣(購物)",
+      "cases": 3295,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "ly-2021-2023-methods"
+      ],
+      "classification": "2019-revision",
+      "coverage": "年度前十項及其他，其他的細分內容逐年可能不同",
+      "missingReasons": {
+        "victims": "本表未提供手法別被害人數。",
+        "lossNTD": "本表未提供手法別財損。"
+      }
+    },
+    {
+      "year": 2022,
+      "label": "假愛情交友",
+      "cases": 1442,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "ly-2021-2023-methods"
+      ],
+      "classification": "2019-revision",
+      "coverage": "年度前十項及其他，其他的細分內容逐年可能不同",
+      "missingReasons": {
+        "victims": "本表未提供手法別被害人數。",
+        "lossNTD": "本表未提供手法別財損。"
+      }
+    },
+    {
+      "year": 2022,
+      "label": "猜猜我是誰",
+      "cases": 1245,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "ly-2021-2023-methods"
+      ],
+      "classification": "2019-revision",
+      "coverage": "年度前十項及其他，其他的細分內容逐年可能不同",
+      "missingReasons": {
+        "victims": "本表未提供手法別被害人數。",
+        "lossNTD": "本表未提供手法別財損。"
+      }
+    },
+    {
+      "year": 2022,
+      "label": "佯稱代辦貸款",
+      "cases": 1117,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "ly-2021-2023-methods"
+      ],
+      "classification": "2019-revision",
+      "coverage": "年度前十項及其他，其他的細分內容逐年可能不同",
+      "missingReasons": {
+        "victims": "本表未提供手法別被害人數。",
+        "lossNTD": "本表未提供手法別財損。"
+      }
+    },
+    {
+      "year": 2022,
+      "label": "遊戲點數(含虛擬寶物)詐欺",
+      "cases": 1115,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "ly-2021-2023-methods"
+      ],
+      "classification": "2019-revision",
+      "coverage": "年度前十項及其他，其他的細分內容逐年可能不同",
+      "missingReasons": {
+        "victims": "本表未提供手法別被害人數。",
+        "lossNTD": "本表未提供手法別財損。"
+      }
+    },
+    {
+      "year": 2022,
+      "label": "假冒機構(公務員)",
+      "cases": 1104,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "ly-2021-2023-methods"
+      ],
+      "classification": "2019-revision",
+      "coverage": "年度前十項及其他，其他的細分內容逐年可能不同",
+      "missingReasons": {
+        "victims": "本表未提供手法別被害人數。",
+        "lossNTD": "本表未提供手法別財損。"
+      }
+    },
+    {
+      "year": 2022,
+      "label": "借錢不還含票據詐欺(空頭)",
+      "cases": 1003,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "ly-2021-2023-methods"
+      ],
+      "classification": "2019-revision",
+      "coverage": "年度前十項及其他，其他的細分內容逐年可能不同",
+      "missingReasons": {
+        "victims": "本表未提供手法別被害人數。",
+        "lossNTD": "本表未提供手法別財損。"
+      }
+    },
+    {
+      "year": 2022,
+      "label": "其他",
+      "cases": 4066,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "ly-2021-2023-methods"
+      ],
+      "classification": "2019-revision",
+      "coverage": "年度前十項及其他，其他的細分內容逐年可能不同",
+      "missingReasons": {
+        "victims": "本表未提供手法別被害人數。",
+        "lossNTD": "本表未提供手法別財損。"
+      }
+    },
+    {
+      "year": 2023,
+      "label": "投資詐欺",
+      "cases": 11775,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "ly-2021-2023-methods"
+      ],
+      "classification": "2019-revision",
+      "coverage": "年度前十項及其他，其他的細分內容逐年可能不同",
+      "missingReasons": {
+        "victims": "本表未提供手法別被害人數。",
+        "lossNTD": "本表未提供手法別財損。"
+      }
+    },
+    {
+      "year": 2023,
+      "label": "解除分期付款詐欺(ATM)",
+      "cases": 7351,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "ly-2021-2023-methods"
+      ],
+      "classification": "2019-revision",
+      "coverage": "年度前十項及其他，其他的細分內容逐年可能不同",
+      "missingReasons": {
+        "victims": "本表未提供手法別被害人數。",
+        "lossNTD": "本表未提供手法別財損。"
+      }
+    },
+    {
+      "year": 2023,
+      "label": "假網路拍賣(購物)",
+      "cases": 4667,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "ly-2021-2023-methods"
+      ],
+      "classification": "2019-revision",
+      "coverage": "年度前十項及其他，其他的細分內容逐年可能不同",
+      "missingReasons": {
+        "victims": "本表未提供手法別被害人數。",
+        "lossNTD": "本表未提供手法別財損。"
+      }
+    },
+    {
+      "year": 2023,
+      "label": "一般購物詐欺(偽稱買賣)",
+      "cases": 3579,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "ly-2021-2023-methods"
+      ],
+      "classification": "2019-revision",
+      "coverage": "年度前十項及其他，其他的細分內容逐年可能不同",
+      "missingReasons": {
+        "victims": "本表未提供手法別被害人數。",
+        "lossNTD": "本表未提供手法別財損。"
+      }
+    },
+    {
+      "year": 2023,
+      "label": "假愛情交友",
+      "cases": 1368,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "ly-2021-2023-methods"
+      ],
+      "classification": "2019-revision",
+      "coverage": "年度前十項及其他，其他的細分內容逐年可能不同",
+      "missingReasons": {
+        "victims": "本表未提供手法別被害人數。",
+        "lossNTD": "本表未提供手法別財損。"
+      }
+    },
+    {
+      "year": 2023,
+      "label": "猜猜我是誰",
+      "cases": 1216,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "ly-2021-2023-methods"
+      ],
+      "classification": "2019-revision",
+      "coverage": "年度前十項及其他，其他的細分內容逐年可能不同",
+      "missingReasons": {
+        "victims": "本表未提供手法別被害人數。",
+        "lossNTD": "本表未提供手法別財損。"
+      }
+    },
+    {
+      "year": 2023,
+      "label": "借錢不還含票據詐欺(空頭)",
+      "cases": 988,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "ly-2021-2023-methods"
+      ],
+      "classification": "2019-revision",
+      "coverage": "年度前十項及其他，其他的細分內容逐年可能不同",
+      "missingReasons": {
+        "victims": "本表未提供手法別被害人數。",
+        "lossNTD": "本表未提供手法別財損。"
+      }
+    },
+    {
+      "year": 2023,
+      "label": "假冒機構(公務員)",
+      "cases": 985,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "ly-2021-2023-methods"
+      ],
+      "classification": "2019-revision",
+      "coverage": "年度前十項及其他，其他的細分內容逐年可能不同",
+      "missingReasons": {
+        "victims": "本表未提供手法別被害人數。",
+        "lossNTD": "本表未提供手法別財損。"
+      }
+    },
+    {
+      "year": 2023,
+      "label": "遊戲點數(含虛擬寶物)詐欺",
+      "cases": 984,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "ly-2021-2023-methods"
+      ],
+      "classification": "2019-revision",
+      "coverage": "年度前十項及其他，其他的細分內容逐年可能不同",
+      "missingReasons": {
+        "victims": "本表未提供手法別被害人數。",
+        "lossNTD": "本表未提供手法別財損。"
+      }
+    },
+    {
+      "year": 2023,
+      "label": "佯稱代辦貸款",
+      "cases": 967,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "ly-2021-2023-methods"
+      ],
+      "classification": "2019-revision",
+      "coverage": "年度前十項及其他，其他的細分內容逐年可能不同",
+      "missingReasons": {
+        "victims": "本表未提供手法別被害人數。",
+        "lossNTD": "本表未提供手法別財損。"
+      }
+    },
+    {
+      "year": 2023,
+      "label": "其他",
+      "cases": 3943,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "ly-2021-2023-methods"
+      ],
+      "classification": "2019-revision",
+      "coverage": "年度前十項及其他，其他的細分內容逐年可能不同",
+      "missingReasons": {
+        "victims": "本表未提供手法別被害人數。",
+        "lossNTD": "本表未提供手法別財損。"
+      }
+    },
+    {
+      "year": 2017,
+      "label": "解除分期付款詐欺(ATM)",
+      "cases": 4255,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "npa-2017-yearbook"
+      ],
+      "classification": "pre-2019",
+      "coverage": "年報較多案類，非完整分類",
+      "missingReasons": {
+        "victims": "本表沒有手法別被害人數。",
+        "lossNTD": "本表沒有手法別財損。"
+      }
+    },
+    {
+      "year": 2017,
+      "label": "假冒名義",
+      "cases": 4124,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "npa-2017-yearbook"
+      ],
+      "classification": "pre-2019",
+      "coverage": "年報較多案類，非完整分類",
+      "missingReasons": {
+        "victims": "本表沒有手法別被害人數。",
+        "lossNTD": "本表沒有手法別財損。"
+      }
+    },
+    {
+      "year": 2017,
+      "label": "假網路拍賣(購物)",
+      "cases": 3591,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "npa-2017-yearbook"
+      ],
+      "classification": "pre-2019",
+      "coverage": "年報較多案類，非完整分類",
+      "missingReasons": {
+        "victims": "本表沒有手法別被害人數。",
+        "lossNTD": "本表沒有手法別財損。"
+      }
+    },
+    {
+      "year": 2019,
+      "label": "假網路拍賣(購物)",
+      "cases": 3725,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "npa-2019-yearbook"
+      ],
+      "classification": "2019-revision",
+      "coverage": "年報較多案類，非完整分類",
+      "missingReasons": {
+        "victims": "本表沒有手法別被害人數。",
+        "lossNTD": "本表沒有手法別財損。"
+      }
+    },
+    {
+      "year": 2019,
+      "label": "一般購物詐欺(偽稱買賣)",
+      "cases": 3115,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "npa-2019-yearbook"
+      ],
+      "classification": "2019-revision",
+      "coverage": "年報較多案類，非完整分類",
+      "missingReasons": {
+        "victims": "本表沒有手法別被害人數。",
+        "lossNTD": "本表沒有手法別財損。"
+      }
+    },
+    {
+      "year": 2019,
+      "label": "解除分期付款詐欺(ATM)",
+      "cases": 3170,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "npa-2019-yearbook"
+      ],
+      "classification": "2019-revision",
+      "coverage": "年報較多案類，非完整分類",
+      "missingReasons": {
+        "victims": "本表沒有手法別被害人數。",
+        "lossNTD": "本表沒有手法別財損。"
+      }
+    },
+    {
+      "year": 2019,
+      "label": "投資詐欺",
+      "cases": 1894,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "npa-2020-yearbook"
+      ],
+      "classification": "2019-revision",
+      "coverage": "年報較多案類，非完整分類",
+      "missingReasons": {
+        "victims": "本表沒有手法別被害人數。",
+        "lossNTD": "本表沒有手法別財損。"
+      }
+    },
+    {
+      "year": 2020,
+      "label": "假網路拍賣(含一般購物詐欺)",
+      "cases": 5906,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "npa-2020-yearbook"
+      ],
+      "classification": "2019-revision",
+      "coverage": "年報僅列較多案類，非完整分類。2020購物項為合併類，不與單獨網購項直接比較。",
+      "missingReasons": {
+        "victims": "本表沒有手法別被害人數。",
+        "lossNTD": "本表沒有手法別財損。"
+      }
+    },
+    {
+      "year": 2020,
+      "label": "解除分期付款詐欺(ATM)",
+      "cases": 3172,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "npa-2020-yearbook"
+      ],
+      "classification": "2019-revision",
+      "coverage": "年報僅列較多案類，非完整分類。2020購物項為合併類，不與單獨網購項直接比較。",
+      "missingReasons": {
+        "victims": "本表沒有手法別被害人數。",
+        "lossNTD": "本表沒有手法別財損。"
+      }
+    },
+    {
+      "year": 2020,
+      "label": "投資詐欺",
+      "cases": 2852,
+      "victims": null,
+      "lossNTD": null,
+      "sourceIds": [
+        "npa-2020-yearbook"
+      ],
+      "classification": "2019-revision",
+      "coverage": "年報僅列較多案類，非完整分類。2020購物項為合併類，不與單獨網購項直接比較。",
+      "missingReasons": {
+        "victims": "本表沒有手法別被害人數。",
+        "lossNTD": "本表沒有手法別財損。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "npa-latest-tables",
+      "title": "警政統計重要結果表（115年8月資料，115-09-30更新）",
+      "url": "https://www.npa.gov.tw/ch/app/data/doc?module=wg055&detailNo=949193398038827008&type=s",
+      "publisher": "內政部警政署統計室",
+      "checkedAt": "2026-10-05",
+      "sha256": "ba9144d7097127eef959456bf87c333d5967910dfa89a0f03615010611d9eaec",
+      "table": "使用注意事項；表5，印刷頁40"
+    },
+    {
+      "id": "cib-2025",
+      "title": "114年中華民國刑案統計：其他刑案分析",
+      "url": "https://www.cib.npa.gov.tw/ch/app/data/doc?module=wg136&detailNo=1545237436307607552&type=s",
+      "publisher": "內政部警政署刑事警察局",
+      "checkedAt": "2026-10-05",
+      "sha256": "13aa9f8a80460c63139da491dac1558ad1bc6beb13e0ad15b15f5f72a3873449",
+      "table": "表143印刷頁281；表147印刷頁284（PDF第84頁）"
+    },
+    {
+      "id": "moi-2018",
+      "title": "108年第17週內政統計通報：107年詐欺案件",
+      "url": "https://ws.moi.gov.tw/001/Upload/OldFile/news_file/108%E5%B9%B4%E7%AC%AC17%E9%80%B1%E5%85%A7%E6%94%BF%E7%B5%B1%E8%A8%88%E9%80%9A%E5%A0%B1_%E8%A9%90%E6%AC%BA%E6%A1%88%E4%BB%B6.pdf",
+      "publisher": "內政部統計處",
+      "checkedAt": "2026-10-05",
+      "sha256": "2c0ed7f6ab10ebc50931a7b574bedf723d3d84096ed4a83a9dba52d50af72e31",
+      "table": "表1第3頁，表2第4頁"
+    },
+    {
+      "id": "npa-2023-gender",
+      "title": "112年性別統計分析：刑案被害人",
+      "url": "https://www.npa.gov.tw/ch/app/data/doc?module=wg063&detailNo=1329335842023411712&type=s",
+      "publisher": "內政部警政署",
+      "checkedAt": "2026-10-05",
+      "sha256": "48d13d6519dc729b91a865c9ae3b8373351af745185071df352f793348a2d4ca",
+      "table": "表2-9：108–112年詐欺男性及女性被害人"
+    },
+    {
+      "id": "npa-2024-gender",
+      "title": "113年性別統計分析：刑案被害人",
+      "url": "https://www.npa.gov.tw/ch/app/data/doc?module=wg063&detailNo=1463087178627158016&type=s",
+      "publisher": "內政部警政署",
+      "checkedAt": "2026-10-05",
+      "sha256": "6e826538054864c98028d0d7fc97f315913f81906ad74a4caf08a4434cc60ba1",
+      "table": "表2-10：113年全年，非表2-9的1–8月"
+    },
+    {
+      "id": "ly-2021-2023-methods",
+      "title": "114年度中央政府總預算案整體評估報告：詐欺犯罪方法",
+      "url": "https://www.ly.gov.tw/Pages/Detail.aspx?nodeid=55648&pid=243252",
+      "publisher": "立法院預算中心（警政署提供數據）",
+      "checkedAt": "2026-10-05",
+      "sha256": "c8cc60ec5fa0da656593ff1af64d84410f6d972f9558f6bfa68b6b0626b1f3e4",
+      "table": "表4：110–112年詐欺案件發生數－犯罪方法"
+    },
+    {
+      "id": "cib-2023",
+      "title": "112年中華民國刑案統計：其他刑案分析",
+      "url": "https://www.cib.npa.gov.tw/ch/app/data/doc?detailNo=1260803039086776320&module=wg136&type=s",
+      "publisher": "內政部警政署刑事警察局",
+      "checkedAt": "2026-10-05",
+      "sha256": "0a8d8bb94e7ef18c2ae57bb1deccc39e83305d1383b8606ccc35a116d55ff007",
+      "table": "表145分類註記；表147被害人總數"
+    },
+    {
+      "id": "moj-2024-losses",
+      "title": "113年犯罪狀況及其分析：第一篇數據",
+      "url": "https://www.cprc.moj.gov.tw/media/20215128/1-%E7%AC%AC%E4%B8%80%E7%AF%87-%E6%95%B8%E6%93%9A.xlsx?mediaDL=true",
+      "publisher": "法務部司法官學院犯罪防治研究中心（資料來源：內政部警政署）",
+      "checkedAt": "2026-10-05",
+      "sha256": "472d43f18a427af4bf1f39f8dd9ba9ac6d081ab8b095a1664ede3f22f7e8fddd",
+      "table": "表1-2-6：近10年詐欺案件被害總金額，單位新臺幣元"
+    },
+    {
+      "id": "npa-2017-yearbook",
+      "title": "106年警政工作年報",
+      "url": "https://www.npa.gov.tw/ch/app/data/doc?detailNo=798843201229189120&module=wg031&type=s",
+      "publisher": "內政部警政署",
+      "checkedAt": "2026-10-05",
+      "sha256": "147d90082c1735c0dbff8e8f9e89279519770d150d4bf92c6b1d27545be9ebd1",
+      "table": "表2-3及圖2-6，印刷頁55"
+    },
+    {
+      "id": "npa-2019-yearbook",
+      "title": "108年警政工作年報",
+      "url": "https://www.npa.gov.tw/ch/app/data/doc?detailNo=798843574341890048&module=wg031&type=s",
+      "publisher": "內政部警政署",
+      "checkedAt": "2026-10-05",
+      "sha256": "4de314d7895be4f52e26bcbfe39e50aee989ea4ab49e41ffb67939e872472789",
+      "table": "表2-3，印刷頁49"
+    },
+    {
+      "id": "npa-2020-yearbook",
+      "title": "109年警政工作年報",
+      "url": "https://www.npa.gov.tw/ch/app/data/doc?detailNo=920167868618772480&module=wg031&type=s",
+      "publisher": "內政部警政署",
+      "checkedAt": "2026-10-05",
+      "sha256": "ee3d8754be200e0978e2113f252fbeb2184675bb9c4bd04579ef87d42c49410a",
+      "table": "表2-4，印刷頁46"
+    },
+    {
+      "id": "moj-2023-methodology",
+      "title": "112年犯罪狀況及其分析：第一篇數據",
+      "url": "https://www.cprc.moj.gov.tw/media/20214218/1-%E7%AC%AC%E4%B8%80%E7%AF%87-%E6%95%B8%E6%93%9A.xlsx?mediaDL=true",
+      "publisher": "法務部司法官學院犯罪防治研究中心",
+      "checkedAt": "2026-10-05",
+      "sha256": "8a866cb9da9a69721d290dee4584490ce6cf10166062b8252d88a3b7a21d8581",
+      "table": "表1-2-5說明4：108年合併與拆分"
+    },
+    {
+      "id": "tainan-165-2025",
+      "title": "科技防詐再升級！黃偉哲率全國之先推動ATM偵詐自動通報警局",
+      "url": "https://sdc-rdec.tainan.gov.tw/news_content.aspx?n=13589&s=8820228",
+      "publisher": "臺南市政府（引述165打詐儀錶板）",
+      "checkedAt": "2026-10-05",
+      "table": "內文：114年全臺約893億元、受理逾16萬件"
+    }
+  ],
+  "methodology": [
+    "2024年9月起刑案資料由受理報案e化系統自動產出，部分由1案1發生數改成1被害人1發生數。2024是混合口徑年，勿以線圖直串或計算2016–2025總增幅。",
+    "2019年1月1日犯罪方法分類修正：拒付款項、偽稱買賣、偽稱贖物合併為一般購物詐欺；假冒名義、婚姻詐欺拆分為猜猜我是誰、盜冒用好友身分及假愛情交友。2020年工作年報另將網購與一般購物合列，不能強行做固定分類十年趨勢。",
+    "警方登錄案件與被害人並不包括所有未報案或未被警方發現的犯罪。被害人單位原表為人，未證實去重，不以案件數替代。",
+    "採目前查得最新正式修訂值。2025早期通報197595件/199723人已被2026年9月正式刑案統計197452件/199765人取代。",
+    "手法細表核實2017–2023部分年度選列或主要分類；不同年份分類清單不齊，缺項不是零。2016提供較粗的電信／網路／傳統分組；2024、2025沒有收錄同口徑全年細分類。",
+    "各年被害人及財損不得逕自求和宣稱十年獨立受害人數；財損亦須注意制度及來源口徑。",
+    "2025年同一刑案紀錄系列的全年財損尚未核實，因此顯示缺資料；165打詐儀錶板約893億元是另一受理報案系列，不能拿來補值。",
+    "案件依警方當期受（處）理及補報紀錄統計，並非所有受騙交易都實際發生在該曆年；財損按官方年度刑案紀錄列示，資料未提供所有匯款交易日期，勿當作該年實際發生的經濟總損失。"
+  ],
+  "methodGroupsByYear": [
+    {
+      "year": 2016,
+      "label": "電信詐欺",
+      "cases": 8965,
+      "victims": null,
+      "lossNTD": 1738350000,
+      "originalLossValue": 1738.35,
+      "originalLossUnit": "新臺幣百萬元（刊載到小數2位）",
+      "sourceIds": [
+        "npa-2017-yearbook"
+      ],
+      "classification": "broad-channel-group",
+      "notes": "粗分組，非細分手法；財損有刊載精度，細項加總可能因四捨五入與總數不同。"
+    },
+    {
+      "year": 2016,
+      "label": "網路詐欺",
+      "cases": 4377,
+      "victims": null,
+      "lossNTD": 515430000,
+      "originalLossValue": 515.43,
+      "originalLossUnit": "新臺幣百萬元（刊載到小數2位）",
+      "sourceIds": [
+        "npa-2017-yearbook"
+      ],
+      "classification": "broad-channel-group",
+      "notes": "粗分組，非細分手法；財損有刊載精度，細項加總可能因四捨五入與總數不同。"
+    },
+    {
+      "year": 2016,
+      "label": "傳統詐欺",
+      "cases": 9833,
+      "victims": null,
+      "lossNTD": 1577840000,
+      "originalLossValue": 1577.84,
+      "originalLossUnit": "新臺幣百萬元（刊載到小數2位）",
+      "sourceIds": [
+        "npa-2017-yearbook"
+      ],
+      "classification": "broad-channel-group",
+      "notes": "粗分組，非細分手法；財損有刊載精度，細項加總可能因四捨五入與總數不同。"
+    },
+    {
+      "year": 2017,
+      "label": "電信詐欺",
+      "cases": 7977,
+      "victims": null,
+      "lossNTD": 1780550000,
+      "originalLossValue": 1780.55,
+      "originalLossUnit": "新臺幣百萬元（刊載到小數2位）",
+      "sourceIds": [
+        "npa-2017-yearbook"
+      ],
+      "classification": "broad-channel-group",
+      "notes": "粗分組，非細分手法；財損有刊載精度，細項加總可能因四捨五入與總數不同。"
+    },
+    {
+      "year": 2017,
+      "label": "網路詐欺",
+      "cases": 4771,
+      "victims": null,
+      "lossNTD": 540980000,
+      "originalLossValue": 540.98,
+      "originalLossUnit": "新臺幣百萬元（刊載到小數2位）",
+      "sourceIds": [
+        "npa-2017-yearbook"
+      ],
+      "classification": "broad-channel-group",
+      "notes": "粗分組，非細分手法；財損有刊載精度，細項加總可能因四捨五入與總數不同。"
+    },
+    {
+      "year": 2017,
+      "label": "傳統詐欺",
+      "cases": 9941,
+      "victims": null,
+      "lossNTD": 1726380000,
+      "originalLossValue": 1726.38,
+      "originalLossUnit": "新臺幣百萬元（刊載到小數2位）",
+      "sourceIds": [
+        "npa-2017-yearbook"
+      ],
+      "classification": "broad-channel-group",
+      "notes": "粗分組，非細分手法；財損有刊載精度，細項加總可能因四捨五入與總數不同。"
+    }
+  ],
+  "classificationCoverage": [
+    {
+      "year": 2016,
+      "available": false,
+      "note": "僅粗分組，未收錄細手法。"
+    },
+    {
+      "year": 2017,
+      "available": true,
+      "note": "選列或主要分類，見各列coverage。"
+    },
+    {
+      "year": 2018,
+      "available": true,
+      "note": "選列或主要分類，見各列coverage。"
+    },
+    {
+      "year": 2019,
+      "available": true,
+      "note": "選列或主要分類，見各列coverage。"
+    },
+    {
+      "year": 2020,
+      "available": true,
+      "note": "選列或主要分類，見各列coverage。"
+    },
+    {
+      "year": 2021,
+      "available": true,
+      "note": "選列或主要分類，見各列coverage。"
+    },
+    {
+      "year": 2022,
+      "available": true,
+      "note": "選列或主要分類，見各列coverage。"
+    },
+    {
+      "year": 2023,
+      "available": true,
+      "note": "選列或主要分類，見各列coverage。"
+    },
+    {
+      "year": 2024,
+      "available": false,
+      "note": "未核實同口徑全年細手法資料，不表示沒有該手法。"
+    },
+    {
+      "year": 2025,
+      "available": false,
+      "note": "未核實同口徑全年細手法資料，不表示沒有該手法。"
+    }
+  ],
+  "additionalSeries": [
+    {
+      "id": "165-2025-summary",
+      "title": "另看165受理報案統計",
+      "year": 2025,
+      "cases": null,
+      "casesDisplay": "逾16萬件",
+      "victims": null,
+      "lossNTD": 89300000000,
+      "lossDisplay": "約893億元",
+      "currency": "TWD",
+      "precision": "官方新聞稿公布至整億元，非精確到元",
+      "sourceIds": [
+        "tainan-165-2025"
+      ],
+      "definition": "165打詐儀錶板受理報案統計，與上方警方刑案紀錄系列不同，不能直接接續比較或補缺。",
+      "comparableToAnnualSeries": false
+    }
+  ],
+  "status": "frozen-verified-with-declared-gaps"
+}
