@@ -21,3 +21,8 @@ Local Chromium could not start because the runtime rejected a browser socket ope
 - All ten questions reveal explanations; previous/back/deep-link/restart flows are safe.
 - Keyboard controls, focus visibility, 390px/320px layouts, and 200% text remain usable.
 - Check that final published commit matches the frozen artifact.
+
+## Public browser verification (2026-10-05)
+The published GitHub Pages site was checked through the cloud browser's normal interface. Core navigation, data controls, method search/filter, quiz interactions, and download were exercised. Narrow layouts at approximately 320px and 391px CSS widths were inspected using normal window resizing and 200% browser zoom. This was not a physical-phone test.
+
+Developer Tools were unavailable under the browser policy and were not used. The complete Playwright suite has not been run. Its selectors and asynchronous navigation checks were corrected after public verification; JavaScript syntax validation passed. These test-script corrections do not change the website or its statistics.
